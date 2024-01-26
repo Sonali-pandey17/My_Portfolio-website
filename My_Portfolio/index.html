@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <div class="my_img">
+                    <button id="myimg">ME</button>
+                    <div id="myModal1" class="modal1">
+                        <div class="modal-content1">
+                            <a href="me2.jpeg"></a>
+                            <span class="close1">&times;</span>
+                            <img src="me2.jpeg"/>   
+                        </div>
+                    </div>
+                </div>
+                <h1 class="heading1">&nbsp;&nbsp;SONALI'S PORTFOLIO</h1>
+                
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#project">Projects</a></li>
+                   <li> <a href="#contact">Contact Me</a></li>
+                
+                </ul>
+            </div>    
+        </nav>
+    </header>
+    
+    <main>
+        <section class="first" id="home">
+            <div class="leftSection">
+                Hi! My name is <span class="purple">Sonali</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="my_resume">
+                    <button id="myBtn"><i class="fa fa-download" aria-hidden="true"></i>&nbsp;&nbsp;My Resume</button>
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <a href="sonali_resume.jpg" download class="download-now"><i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i></a>
+                            <span class="close">&times;</span>
+                            <img src="sonali_resume.jpg"/>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="img4.png" alt=""/>
+            </div>
+        </section>
+        <section id="about">
+        <div class="secondSection">
+           <h2>About Me</h2>
+           <div class="aboutContent">
+               <ul>
+                <li>Enthusiastic recent graduate with a degree in Computer Science and a passion for software development.</li>
+                <li>Proficient in technologies:
+                    <div class="sliderImage">
+                        <span style="--i:1;"><img src="html.png" alt=""/><h4>HTML</h4></span>
+                        <span style="--i:2;"><img src="css.png" alt=""/><h4>CSS</h4></span>
+                        <span style="--i:3;"><img src="javascript.png" alt=""/><h4>JavaScript</h4></span>
+                        <span style="--i:4;"><img src="react.png" alt=""/><h4>React JS</h4></span>
+                        <span style="--i:5;"><img src="python.png" alt=""/><h4>Python</h4></span>
+                        <span style="--i:6;"><img src="sql.png" alt=""/><h4>SQL</h4></span>
+                    </div>
+                </li>
+                
+                <li>Eager to contribute to a dynamic team and apply problem-solving skills in a collaborative environment.</li>
+                <li>Hobbies & Interests: 
+                    <ul>
+                        <li>Sketching</li>
+                        <li>Writing</li>
+                        <li>Working on Computer</li>
+                        <li>Reading Books</li>
+                    </ul>
+                </li>
+               </ul>
+           </div>
+        </div>
+    </section>
+        <section class="thirdSection" id="education">
+            <h2>Education</h2>
+            <div class="aboutContent">
+                <div class="imagesScholar">
+                    <img src="degree.png"/>
+                    <img src="diploma.png"/>
+                    <img src="school.png"/>
+                </div>
+                <ul>
+                    
+                    <li><b>Aravali College of Engineering & Management  <br/>   --(2021-Pursuing)<br/>BTech CSE<br/>7.8 CGPA</b></li>
+                    <li><b>Kasturba Institute Of Technology <br/>  --(2016-2019)<br/>Diploma &nbsp; (BTE)<br/>8.4 CGPA</b></li>
+                    <li><b>Government Girls Senior Secondary School<br/>  --(2016)<br/>10<sup>th</sup> &nbsp;(CBSE)<br/>8.6 CGPA</b></li>
+                </ul>
+            </div>
+        </section>
+        <section class="forth-Section" id="project">
+            <div class="aboutContent1">
+                <h2>Projects</h2>
+                <div class="slider">
+                    <!-- list Items -->
+                    <div class="list">
+                        <div class="item active">
+                            <img src="eyeloom2.jpeg">
+                            <div class="content">
+                                <p>Website</p>
+                                <h1>EyeLoom</h1>
+                                <p>
+                                    EyeLoom is an e-commerce website of different glasses based on trendy customer preferences. This site has created in React JS which contains all the eye catching themes, colors, animations & fonts with the help of html & vanilla css and also have creative designs and contents from the developer mind.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="game2.jpeg">
+                            <div class="content">
+                                <p>Stone, Paper, Scissor</p>
+                                <h1>Game</h1>
+                                <p>
+                                    Rock, Paper, Scissors. The familiar game of Rock, Paper, Scissors is played like this: at the same time, two players display one of three symbols: a rock, paper, or scissors. A rock beats scissors, scissors beat paper by cutting it, and paper beats rock by covering it.<br/>
+                                    This game has created in Html, CSS & JavaScript.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="form3.jpeg">
+                            <div class="content">
+                                <p>Student</p>
+                                <h1>Form</h1>
+                                <p>
+                                    Student Form is created to take the data from the users and store it in form of table. Here, all the data taken by the users will store sequentially with a unique id like Name, Email, Phone no, Country etc. <br/>
+                                    It also can be used for different purposes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- button arrows -->
+                    <div class="arrows">
+                        <button id="prev"><</button>
+                        <button id="next">></button>
+                    </div>
+                    <!-- thumbnail -->
+                    <div class="thumbnail">
+                        <div class="item active">
+                            <img src="eyeloom2.jpeg">
+                            <div class="content">
+                                Website
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="game2.jpeg">
+                            <div class="content">
+                                Game
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="form4.png">
+                            <div class="content">
+                                Form
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </section>
+        <section id="contact" class="contactMe1">
+            <div class="contactDiv">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <h2><b>HOME ADDRESS</b></h2>
+                <p style="color: black;line-height: 18px;margin: 15px;">O-462 Saurabh Vihar Jaitpur Meethapur Badarpur, New Delhi 110044</p>
+            </div>
+            <div class="contactDiv">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <h2><b>PHONE NUMBER</b></h2>
+                <p style="color: black;margin-left: 85px;">8920298173<br/>8745894602</p>
+            </div>
+            <div class="contactDiv">
+                <i class="fa fa-github" aria-hidden="true"></i>
+                <h2><b>GITHUB</b></h2>
+                <div class="gitLink">
+                    <a href="https://github.com/Sonali-pandey17">My Profile</a>
+                </div>
+            </div>
+            <div class="contactDiv">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <h2><b>EMAIL</b></h2>
+                <p style="color: black;margin-left: 10px;">sonalikumari87458@gmail.com<br/>sonali.kumarileet@acem.edu.in</p>
+            </div>
+        </section>
+        <section class="fifthSection" >
+            
+            <div class="contactMe">
+                <h1>Contact Me</h1>
+                <input type="text" placeholder="Enter Your Name" style="width: 350px;height: 30px;"/>
+                <br/>
+                <input type="email" placeholder="Enter Your Email" style="width: 350px;height: 30px;margin: 30px;"/>
+                <input type="text" style="width: 350px;height: 80px;margin-top: 8px;"/>
+                <br/>
+                <button>Submit</button>
+            </div>
+        </section>
+        
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['<i>Web Developer.</i>'],
+          typeSpeed: 50,
+        });
+      </script>
+      <script src="file.js"></script>
+</body>
+</html>
